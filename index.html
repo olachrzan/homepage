@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moja (nie)pierwsza strona</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="CSS/style.css" rel="stylesheet">
+  <link href="CSS/mainContainer.css" rel="stylesheet">
+  <link href="CSS/button.css" rel="stylesheet">
+  <link href="CSS/navigation.css" rel="stylesheet">
+  <link href="CSS/header.css" rel="stylesheet">
+  <link href="CSS/freeTimeSection.css" rel="stylesheet">
+  <link href="CSS/table.css" rel="stylesheet">
+  <link href="CSS/ideasSection.css" rel="stylesheet">
+  <link href="CSS/frontendSections.css" rel="stylesheet">
+  <link href="CSS/footer.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+  <div class="mainContainer js-mainContainer">
+    <nav class="navigation js-navigation">
+      <ul class="navigation__menu">
+        <li><a class="navigation__link" href="#czas-wolny">W wolnym czasie</a></li>
+        <li><a class="navigation__link" href="#pomysly-na-siebie">Pomysły na siebie</a></li>
+        <li><a class="navigation__link" href="#dlaczego-frontend">Dlaczego frontend?</a></li>
+      </ul>
+    </nav>
+    <button class="button js-button">Ciemniejsze tło</button>
+    <header class="header">
+      <h1 class="header__mainHeader js-header">Moja (nie)pierwsza strona</h1>
+      <p>Siema! Mam na imię Ola i witam Cię na mojej stronie.<br>Jeśli chcesz dowiedzieć się co nieco o mnie to
+        czytaj dalej.</p>
+      <img height="250" class="header__selfie" src="images/my_photo.jpg" alt="Ola">
+    </header>
+    <main>
+      <section id="czas-wolny" class="freeTimeSection">
+        <h2 class="freeTimeSection__subHeader js-header">W wolnym czasie</h2>
+        <p>
+          Poza siedzeniem w domu (tak, jestem domatorką &#128516;) i oglądaniem seriali bardzo lubię chodzić
+          do <strong>escape roomów</strong>. Wciągnęłam się w tę rozrywkę dość niedawno, więc jeszcze mam dużo
+          pokoi do odwiedzenia. Mimo to udało mi się odwiedzić tego typu miejsca w kilku miastach. Wkręciłam
+          się na tyle, że teraz każdy wyjazd musi uwzględniać co najmniej jeden pokój &#128513; Jeśli chcesz
+          odwiedzić jakiś pokój polecam zajrzeć na stronę <a href="https://lockme.pl/pl/polska" target="_blank"
+            rel="norefferer noopener" class="freeTimeSection__link">lockme.pl</a>. W poniższej
+          tabeli ujęłam pokoje, które najbardziej mi się podobały.</p>
+        <div class="tableConteiner">
+          <table class="table">
+            <tr class="table__cell--header js-table__cell--header">
+              <th scope="col" class="table__cell table__cell--category">Nazwa</th>
+              <th scope="col" class="table__cell table__cell--category">Miasto</th>
+              <th scope="col" class="table__cell table__cell--category">Kategoria</th>
+              <th scope="col" class="table__cell table__cell--category">Poziom trudności</th>
+            </tr>
+            <tr>
+              <th scope="row" class="table__cell table__cell--header table__cell--font js-table__cell--header">Ale cyrk!</th>
+              <td class="table__cell">Gdańsk</td>
+              <td class="table__cell">Abstrakcyjny</td>
+              <td class="table__cell">Średnio zaawansowani</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table__cell table__cell--header table__cell--font js-table__cell--header">Jaś i Małgosia</th>
+              <td rowspan="2" class="table__cell">Poznań</td>
+              <td class="table__cell">Fantasy</td>
+              <td class="table__cell">Początkujący</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table__cell table__cell--header table__cell--font js-table__cell--header">Sekret dziadka</th>
+              <td class="table__cell">Fabularny</td>
+              <td class="table__cell">Doświadczeni</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table__cell table__cell--header table__cell--font js-table__cell--header">Tajemnica Alchemika</th>
+              <td class="table__cell">Kraków</td>
+              <td class="table__cell">Historyczny</td>
+              <td class="table__cell">Średnio zaawansowani</td>
+            </tr>
+            <tr>
+              <th scope="row" class="table__cell table__cell--header table__cell--font js-table__cell--header">Kraina Czarów</th>
+              <td class="table__cell">Zakopane</td>
+              <td class="table__cell">Abstrakcyjny</td>
+              <td class="table__cell">Początkujący</td>
+            </tr>
+          </table>
+        </div>
+        <p>
+          Poza chodzeniem do ER lubię grać w <strong>planszówki</strong> ze znajomymi. Gdy wybierze się dobrą
+          pozycję nie jest to nudna zabawa dla dzieci, a super rozrywka, w której można się zatracić na kilka
+          godzin. Serdecznie polecam pozycje tj. Osadnicy: Narodziny Imperium, Rummikub i oczywiście Talisman:
+          Magia i Miecz.
+        </p>
+      </section>
+      <section id="pomysly-na-siebie" class="ideasSection">
+        <h2 class="ideasSection__subHeader js-header">Pomysły na siebie</h2>
+        <p>
+          Nie jestem tym typem człowieka, który od małego wie kim chce być. Nie ułatwia to życia, tym bardziej
+          przy wyborze kierunku studiów. Ale to nie jest tak, że w ogóle nie mam pomysłu na siebie. Miałam ich
+          całkiem sporo, tylko raczej okazywały się być nietrafione &#128580; Jakiś przykład? Poszłam na
+          <span class="ideasSection__span">ochronę środowiska</span>, ale rozszerzona chemia mnie pogrążyła.
+          Stwierdziłam więc, że spróbuję swoich sił w <span class="ideasSection__span">księgowości</span>. I tu
+          sukces, bo studia skończyłam, ale nie chcę pracować w tym zawodzie &#128517; Mam nadzieję, że z
+          <span class="ideasSection__span">programowaniem</span> będzie inaczej i okaże się, że to coś dla mnie.
+          I&nbsp;muszę powiedzieć, że na tą chwilę bardzo prawdopodobne, że tak będzie. Dlaczego?
+        </p>
+      </section>
+      <section id="dlaczego-frontend" class="frontendSections">
+        <h2 class="frontendSections__subHeader js-header">Dlaczego frontend?</h2>
+        <p class="frontendSections__paragraph">
+          Swoją przygodę z kodem zaczęłam w zeszłym roku. Zaciekawił mnie ten temat i zaczęłam uczyć się HTML
+          oraz CSS i&nbsp;robić małe projekty. Niestety, musiałam zrobić sobie przerwę, ponieważ studia i pisanie
+          pracy dyplomowej wymagało ode mnie aż za dużo czasu. Jednak teraz, gdy już jestem wolna postanowiłam do
+          tego wrócić i dalej się uczyć.<br>Zdecydowałam się na frontend z kilku powodów:
+        </p>
+        <ul class="frontendSections__list">
+          <li>efekty pracy widoczne są od razu po zapisie</li>
+          <li>rozwiązanie nawet najmniejszego problemu daje wielką satysfakcję</li>
+          <li>za pomocą kodu można stworzyć niesamowite rzeczy</li>
+          <li>pisze się po prostu kod a powstają cuda wizualne, takie małe dzieła sztuki</li>
+          <li>i co najważniejsze - daje mi to niezłą frajdę!</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer js-footer">
+      <p class="footer__paragraph">&copy; Copyright 2021 Wszelkie prawa zastrzeżone.</p>
+    </footer>
+  </div>
+</body>
+
+</html>

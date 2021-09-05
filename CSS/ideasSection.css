@@ -1,0 +1,23 @@
+.ideasSection {
+   padding: 20px 0 30px;
+   margin: 20px 8% 15px;
+   text-align: justify;
+   border-bottom: 2px solid #bbb;
+}
+
+.ideasSection__subHeader {
+   margin: 10px 0;
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+.header--darkMode {
+   color: #fff;
+}
+
+.ideasSection__span {
+   color: #16ab8f;
+   font-weight: 700;
+}

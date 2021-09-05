@@ -1,0 +1,33 @@
+.tableConteiner {
+   overflow-x: auto;
+}
+
+.table {
+   margin: 10px auto;
+   border-collapse: collapse;
+}
+
+.table__cell {
+   border: 1.5px solid rgb(52, 145, 127);
+   padding: 5px 25px;
+   vertical-align: middle;
+   text-align: left;
+}
+
+.table__cell--category {
+   text-align: center;
+}
+
+.table__cell--header {
+   background-color: #2CBFA4;
+   color: #fff;
+   text-shadow: 1px 1px 3px hsl(169, 79%, 6%);
+}
+
+.table__cell--darkmode {
+   background-color: #0a6e5c;
+}
+
+.table__cell--font {
+   font-weight: normal;
+}

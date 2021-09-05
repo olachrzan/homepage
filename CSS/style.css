@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    padding: 0 8%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: #ddd;
+}
+
+.body--darkMode {
+    background-color: #545454;
+}

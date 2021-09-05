@@ -1,0 +1,19 @@
+.footer {
+   padding: 15px 0;
+   margin: 30px 0 0;
+   background-color: #2CBFA4;
+   border-top: 2px solid #179981;
+}
+
+.footer--darkMode {
+   background-color: #0A6E5C;
+   border-top: 2px solid #003f33;
+}
+
+.footer__paragraph {
+   letter-spacing: 1px;
+   color: #fff;
+   text-shadow: 1px 1px 4px hsl(169, 79%, 16%);
+   font-size: 14px;
+   margin: 0 8%;
+}
