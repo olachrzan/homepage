@@ -14,11 +14,8 @@
   <link href="CSS/mainContainer.css" rel="stylesheet">
   <link href="CSS/button.css" rel="stylesheet">
   <link href="CSS/navigation.css" rel="stylesheet">
-  <link href="CSS/header.css" rel="stylesheet">
-  <link href="CSS/freeTimeSection.css" rel="stylesheet">
+  <link href="CSS/section.css" rel="stylesheet">
   <link href="CSS/table.css" rel="stylesheet">
-  <link href="CSS/ideasSection.css" rel="stylesheet">
-  <link href="CSS/frontendSections.css" rel="stylesheet">
   <link href="CSS/footer.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -35,22 +32,22 @@
       </ul>
     </nav>
     <button class="button js-button">Ciemniejsze tło</button>
-    <header class="header">
-      <h1 class="header__mainHeader js-header">Moja (nie)pierwsza strona</h1>
+    <header class="section section--headerSection">
+      <h1 class="section__header section__header--main js-section__header">Moja (nie)pierwsza strona</h1>
       <p>Siema! Mam na imię Ola i witam Cię na mojej stronie.<br>Jeśli chcesz dowiedzieć się co nieco o mnie to
         czytaj dalej.</p>
-      <img height="250" class="header__selfie" src="images/my_photo.jpg" alt="Ola">
+      <img height="250" class="section__selfie" src="images/my_photo.jpg" alt="Ola">
     </header>
     <main>
-      <section id="czas-wolny" class="freeTimeSection">
-        <h2 class="freeTimeSection__subHeader js-header">W wolnym czasie</h2>
+      <section id="czas-wolny" class="section">
+        <h2 class="section__header js-section__header">W wolnym czasie</h2>
         <p>
           Poza siedzeniem w domu (tak, jestem domatorką &#128516;) i oglądaniem seriali bardzo lubię chodzić
           do <strong>escape roomów</strong>. Wciągnęłam się w tę rozrywkę dość niedawno, więc jeszcze mam dużo
           pokoi do odwiedzenia. Mimo to udało mi się odwiedzić tego typu miejsca w kilku miastach. Wkręciłam
           się na tyle, że teraz każdy wyjazd musi uwzględniać co najmniej jeden pokój &#128513; Jeśli chcesz
           odwiedzić jakiś pokój polecam zajrzeć na stronę <a href="https://lockme.pl/pl/polska" target="_blank"
-            rel="norefferer noopener" class="freeTimeSection__link">lockme.pl</a>. W poniższej
+            rel="norefferer noopener" class="section__link">lockme.pl</a>. W poniższej
           tabeli ujęłam pokoje, które najbardziej mi się podobały.</p>
         <div class="tableConteiner">
           <table class="table">
@@ -98,28 +95,28 @@
           Magia i Miecz.
         </p>
       </section>
-      <section id="pomysly-na-siebie" class="ideasSection">
-        <h2 class="ideasSection__subHeader js-header">Pomysły na siebie</h2>
+      <section id="pomysly-na-siebie" class="section">
+        <h2 class="section__header js-section__header">Pomysły na siebie</h2>
         <p>
           Nie jestem tym typem człowieka, który od małego wie kim chce być. Nie ułatwia to życia, tym bardziej
           przy wyborze kierunku studiów. Ale to nie jest tak, że w ogóle nie mam pomysłu na siebie. Miałam ich
           całkiem sporo, tylko raczej okazywały się być nietrafione &#128580; Jakiś przykład? Poszłam na
-          <span class="ideasSection__span">ochronę środowiska</span>, ale rozszerzona chemia mnie pogrążyła.
-          Stwierdziłam więc, że spróbuję swoich sił w <span class="ideasSection__span">księgowości</span>. I tu
+          <span class="section__span">ochronę środowiska</span>, ale rozszerzona chemia mnie pogrążyła.
+          Stwierdziłam więc, że spróbuję swoich sił w <span class="section__span">księgowości</span>. I tu
           sukces, bo studia skończyłam, ale nie chcę pracować w tym zawodzie &#128517; Mam nadzieję, że z
-          <span class="ideasSection__span">programowaniem</span> będzie inaczej i okaże się, że to coś dla mnie.
+          <span class="section__span">programowaniem</span> będzie inaczej i okaże się, że to coś dla mnie.
           I&nbsp;muszę powiedzieć, że na tą chwilę bardzo prawdopodobne, że tak będzie. Dlaczego?
         </p>
       </section>
-      <section id="dlaczego-frontend" class="frontendSections">
-        <h2 class="frontendSections__subHeader js-header">Dlaczego frontend?</h2>
-        <p class="frontendSections__paragraph">
+      <section id="dlaczego-frontend" class="section">
+        <h2 class="section__header js-section__header">Dlaczego frontend?</h2>
+        <p class="section__paragraph--special">
           Swoją przygodę z kodem zaczęłam w zeszłym roku. Zaciekawił mnie ten temat i zaczęłam uczyć się HTML
           oraz CSS i&nbsp;robić małe projekty. Niestety, musiałam zrobić sobie przerwę, ponieważ studia i pisanie
           pracy dyplomowej wymagało ode mnie aż za dużo czasu. Jednak teraz, gdy już jestem wolna postanowiłam do
           tego wrócić i dalej się uczyć.<br>Zdecydowałam się na frontend z kilku powodów:
         </p>
-        <ul class="frontendSections__list">
+        <ul class="section__list">
           <li>efekty pracy widoczne są od razu po zapisie</li>
           <li>rozwiązanie nawet najmniejszego problemu daje wielką satysfakcję</li>
           <li>za pomocą kodu można stworzyć niesamowite rzeczy</li>

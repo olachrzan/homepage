@@ -2,7 +2,7 @@
    console.log("Hej! Cieszę się, że tu zajrzałeś :) Daj znać co myślisz o kodzie strony");
 
    const button = document.querySelector(".js-button");
-   const header = document.querySelectorAll(".js-header");
+   const header = document.querySelectorAll(".js-section__header");
    const tableCellHeader = document.querySelectorAll(".js-table__cell--header");
 
    const setDarkMode = () => {
@@ -21,7 +21,7 @@
 
    header.forEach(item => {
       button.addEventListener('click', () => {
-         item.classList.toggle("header--darkMode")
+         item.classList.toggle("section__header--darkMode")
       })
    });
 
